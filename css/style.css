@@ -52,6 +52,7 @@ body {
     font-size:12px;
     background:#000;
     opacity:0.9;
+    cursor: pointer;
 }
 .u-tab li {
     display:inline-block;

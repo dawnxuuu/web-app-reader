@@ -272,7 +272,7 @@
 			       
 			       var prevChapter = function(UIcallback) {
 			           Chapter_id = parseInt(Chapter_id,10);
-			           if(Chapter_id == 0){
+			           if(Chapter_id == 1){
 			               alert("已经是第一页");
 			               return;
 			           }
@@ -282,7 +282,7 @@
 			       }
 			       var nextChapter = function(UIcallback) {
 			           Chapter_id = parseInt(Chapter_id,10);
-			           if(Chapter_id == ChapterTotal){
+			           if(Chapter_id == ChapterTotal-2){
 			               alert("已经是最后一页");
 			               return;
 			           }
